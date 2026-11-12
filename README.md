@@ -19,6 +19,10 @@ Download from [Releases](https://github.com/Izurika-rizuyo/seed/releases/latest)
 
 After that, Seed updates itself from this channel: **Settings → Platform → Updates → Check for updates**.
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
+
 ## Plugins
 
 The **Design Workflow** pack (Brief, Decisions, Sitemap, Documents) is built into Seed. Other plugins come from this repository — see [CONTRIBUTING.md](CONTRIBUTING.md) to offer yours.
