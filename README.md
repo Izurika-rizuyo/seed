@@ -19,6 +19,8 @@ Download from [Releases](https://github.com/Izurika-rizuyo/seed/releases/latest)
 
 After that, Seed updates itself from this channel: **Settings → Platform → Updates → Check for updates**.
 
+Step-by-step guide, the macOS «was not opened» warning and moving from Keelson: **[INSTALL.md](INSTALL.md)**.
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
@@ -31,4 +33,4 @@ The **Design Workflow** pack (Brief, Decisions, Sitemap, Documents) is built int
 
 # Seed — официальный канал
 
-Выпуски, лента обновлений и каталог плагинов Seed. Установщики — в [Releases](https://github.com/Izurika-rizuyo/seed/releases/latest); дальше Seed обновляется сам: «Настройки → Платформа → Обновления → Проверить обновления». Плагины — «Настройки → Плагины → Каталог». Как предложить свой плагин — [CONTRIBUTING.md](CONTRIBUTING.md).
+Выпуски, лента обновлений и каталог плагинов Seed. Установщики — в [Releases](https://github.com/Izurika-rizuyo/seed/releases/latest), пошаговая установка и переход с Keelson — в [INSTALL.md](INSTALL.md); дальше Seed обновляется сам: «Настройки → Платформа → Обновления → Проверить обновления». Плагины — «Настройки → Плагины → Каталог». Как предложить свой плагин — [CONTRIBUTING.md](CONTRIBUTING.md).
