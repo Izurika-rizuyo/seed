@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "repo": "Izurika-rizuyo/seed",
+  "latest": {
+    "version": "0.2.2",
+    "build": "20261112.230230",
+    "notes": "Проверка обновлений из официального канала, каталог плагинов с пакетом Design Workflow, защита изменённых плагинов проекта.",
+    "publishedAt": "2026-11-12T20:02:46.152Z",
+    "shell": {
+      "electron": "44.9.3"
+    },
+    "assets": {
+      "darwin-arm64": {
+        "update": {
+          "name": "Seed-update-0.2.2-20261112.230216-darwin-arm64.seedupdate",
+          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.2/Seed-update-0.2.2-20261112.230216-darwin-arm64.seedupdate",
+          "sha256": "54914f07b6abfc29d0cd38b2440ae418274e3654058633454f1e62702e954375",
+          "size": 54591677,
+          "build": "20261112.230216"
+        },
+        "installer": {
+          "name": "Seed-0.2.2-mac-arm64.dmg",
+          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.2/Seed-0.2.2-mac-arm64.dmg"
+        }
+      },
+      "win32-x64": {
+        "update": {
+          "name": "Seed-update-0.2.2-20261112.230230-win32-x64.seedupdate",
+          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.2/Seed-update-0.2.2-20261112.230230-win32-x64.seedupdate",
+          "sha256": "9d681e81e3fe4021129ecca233b6ea00ffd3ea644adb7757ee21780c1a65f4e4",
+          "size": 51691930,
+          "build": "20261112.230230"
+        },
+        "installer": {
+          "name": "Seed-Setup-0.2.2-win-x64.exe",
+          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.2/Seed-Setup-0.2.2-win-x64.exe"
+        }
+      }
+    }
+  }
+}

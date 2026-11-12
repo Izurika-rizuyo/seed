@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "plugins": [
+    {
+      "id": "design-workflow",
+      "kind": "pack",
+      "name": "Design Workflow",
+      "version": "0.1.0",
+      "author": "Seed",
+      "description": {
+        "ru": "Бриф, решения, карта сайта и документы проекта с задачами ИИ для них.",
+        "en": "Project brief, decisions, sitemap and documents, with the AI tasks for them."
+      },
+      "enables": [
+        "brief",
+        "decisions",
+        "sitemap",
+        "documents"
+      ],
+      "tags": [
+        "design",
+        "official"
+      ],
+      "minSeed": "0.2.2"
+    }
+  ],
+  "signedAt": "2026-11-12T19:59:48.286Z"
+}
