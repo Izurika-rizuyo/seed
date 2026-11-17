@@ -2,38 +2,38 @@
   "format": 1,
   "repo": "Izurika-rizuyo/seed",
   "latest": {
-    "version": "0.2.8",
-    "build": "20261117.111234",
-    "notes": "**Журнал запусков**\n- Seed записывает, во что обошёлся каждый ответ агента: токены, время, ожидание ваших ответов, вызовы инструментов, ошибки и лимиты. Только числа — без текста сообщений, имён файлов и аргументов инструментов. Журнал хранится на этом устройстве и не синхронизируется.\n- В «Настройки → Диагностика» — сводка за 30 дней: одиночные чаты против команд, последние чаты и команды.\n- Результат чата или команды можно оценить: «принято», «доработано», «отклонено» — в сводке и на экране закрытой команды. Так видно, где команда агентов окупается, а где нет.\n- «Выгрузить» сохраняет журнал в файл — для сравнения и разбора сбоев.\n\n**Figma Bridge**\n- Файл Figma больше не «теряется» между запусками плагина: если Figma не отдаёт настоящий ключ файла, запасной ключ хранится в самом файле и не меняется.\n- `list_files` сообщает, настоящий это ключ или запасной (`keySource`).\n\n**Плагины и карта (из 0.2.7)**\n- Плагины открывают друг друга и разделы Seed по адресам `hub:`; страница плагина получает параметры адреса.\n- Карта проекта доступна плагинам; в карте появились приложения клиента с экранами, ссылками на файлы и состояниями.\n- Раздел, заменённый плагином, берёт заголовок и подпись из страницы плагина.\n\n**Важно**\n- После обновления перезапустите плагин Figma Bridge в Figma, чтобы заработал новый ключ файла.",
-    "publishedAt": "2026-11-17T08:13:01.072Z",
+    "version": "0.2.9",
+    "build": "20261117.112115",
+    "notes": "**Исправление**\n- Проект больше не отказывается открываться из-за файла или папки с двоеточием либо обратной косой чертой в имени (например, `insp-5325:16051.json`). Раньше Seed сообщал «В манифесте допустимы только относительные пути без переходов» и не открывал проект целиком.\n- Такие файлы теперь пропускаются с предупреждением в списке проблем импорта. Чтобы файл попал в проект, переименуйте его.",
+    "publishedAt": "2026-11-17T08:21:41.598Z",
     "shell": {
       "electron": "44.9.3"
     },
     "assets": {
       "darwin-arm64": {
         "update": {
-          "name": "Seed-update-0.2.8-20261117.111220-darwin-arm64.seedupdate",
-          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.8/Seed-update-0.2.8-20261117.111220-darwin-arm64.seedupdate",
-          "sha256": "8e51d5a53a00d9e813ec3b8263f04fee89121ec6599f62938dc938a0161a14b4",
-          "size": 53108699,
-          "build": "20261117.111220"
+          "name": "Seed-update-0.2.9-20261117.112100-darwin-arm64.seedupdate",
+          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.9/Seed-update-0.2.9-20261117.112100-darwin-arm64.seedupdate",
+          "sha256": "ae39e7a3205644cdad49fff2e762cff12c2eae943bda807db380a805ed26cf7d",
+          "size": 53109623,
+          "build": "20261117.112100"
         },
         "installer": {
-          "name": "Seed-0.2.8-mac-arm64.dmg",
-          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.8/Seed-0.2.8-mac-arm64.dmg"
+          "name": "Seed-0.2.9-mac-arm64.dmg",
+          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.9/Seed-0.2.9-mac-arm64.dmg"
         }
       },
       "win32-x64": {
         "update": {
-          "name": "Seed-update-0.2.8-20261117.111234-win32-x64.seedupdate",
-          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.8/Seed-update-0.2.8-20261117.111234-win32-x64.seedupdate",
-          "sha256": "db2abc068d14014f458a01aa0abcf70f1c8ee4d368e2aaf5d2b6637012789e7c",
-          "size": 50206569,
-          "build": "20261117.111234"
+          "name": "Seed-update-0.2.9-20261117.112115-win32-x64.seedupdate",
+          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.9/Seed-update-0.2.9-20261117.112115-win32-x64.seedupdate",
+          "sha256": "4a99a1c893c4ccdd40e70e293d59dff754671d7a621412344f551115c9c2226e",
+          "size": 50208645,
+          "build": "20261117.112115"
         },
         "installer": {
-          "name": "Seed-Setup-0.2.8-win-x64.exe",
-          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.8/Seed-Setup-0.2.8-win-x64.exe"
+          "name": "Seed-Setup-0.2.9-win-x64.exe",
+          "url": "https://github.com/Izurika-rizuyo/seed/releases/download/v0.2.9/Seed-Setup-0.2.9-win-x64.exe"
         }
       }
     }
